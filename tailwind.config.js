@@ -7,32 +7,23 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary:{
-          DEFAULT: '#007BFF',
+        primary: {
+          DEFAULT: '#32012F',
         },
         secondary: {
-          DEFAULT: '#6C757D',
+          DEFAULT: '#524C42',
         },
         accent: {
-          DEFAULT: '#FFC107', // Highlights, notification badges, icons
+          DEFAULT: '#E2DFD0', // Highlights, notification badges, icons, background
         },
-        background: {
-          DEFAULT: '#F8F9FA', // Main background, section backgrounds
+        highlight: {
+          DEFAULT: '#F97300', // Important highlights, action calls
         },
         textCol: {
-          DEFAULT: '#212529', // Primary text
+          DEFAULT: '#32012F', // Primary text
         },
         mutedCol: {
-          DEFAULT: '#6C757D', // Secondary text, placeholders
-        },
-        success: {
-          DEFAULT: '#28A745', // Success messages, indicators
-        },
-        errorCol: {
-          DEFAULT: '#DC3545', // Error messages, indicators
-        },
-        warning: {
-          DEFAULT: '#FFC107 ', // Warning messages, indicators
+          DEFAULT: '#524C42', // Secondary text, placeholders
         },
       },
     },

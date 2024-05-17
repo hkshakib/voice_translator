@@ -2,7 +2,7 @@
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div className="flex bg-accent h-[100vh]">Home</div>
   )
 }
 
